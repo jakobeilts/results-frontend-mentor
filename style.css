@@ -6,6 +6,7 @@ body{
     align-items: center;
     font-family: 'Hanken Grotesk', sans-serif;
     margin:0px;
+    overflow:hidden;
 }
 
 @media (max-width: 532px) {
