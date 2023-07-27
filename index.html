@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <div class="container">
+    <div class="resultCard">
+      <div class="heading" style="text-align: center;">
+        <h1 style="color:hsl(241, 100%, 89%);">Your Result</h1>
+      </div>
+      <div class="categories" style="margin-top:-80px;">
+        <div class="circle">
+          <div class="bigNumber" style="color:white; font-size: 50px; font-weight: 800;">76</div>
+          <div class="smallNumber" style="color:hsla(241, 100%, 89%,60%); font-weight: 500;">of 100</div>
+        </div>
+      </div>
+
+      <div class="textUnderCircle">
+        <h1 style="color:white; font-size: 30px; font-weight: 800;">Great</h1>
+        <p style="text-align:center; color:hsla(241, 100%, 89%,60%); font-size: 18px; font-weight: 500; margin-top:-10px;margin-bottom:10px;">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+    <div class="summaryCard">
+      <div class="heading">
+        <h1 class="headingSummary">Summary</h1>
+      </div>
+      <div class="categories">
+        <div class="category" style="background: hsla(0, 100%, 67%, 10%); color: hsl(0, 100%, 67%);">
+          <div class="categoryTextAndImage">
+            <img src="assets/images/icon-reaction.svg" alt="">
+            <p>Reaction</p>
+          </div>
+          <p style="color:rgba(0, 0, 0, 0.351);"><b style="color:black;">80 </b>/ 100</p>
+        </div>
+        <div class="category" style="background: hsla(39, 100%, 56%,10%); color: hsl(39, 100%, 56%);">
+          <div class="categoryTextAndImage">
+            <img src="assets/images/icon-memory.svg" alt="">
+            <p>Memory</p>
+          </div>
+          <p style="color:rgba(0, 0, 0, 0.351);"><b style="color:black;">92 </b>/ 100</p>
+        </div>
+        <div class="category" style="background: hsla(166, 100%, 37%,10%); color: hsl(166, 100%, 37%);">
+          <div class="categoryTextAndImage">
+            <img src="assets/images/icon-verbal.svg" alt="">
+            <p>Verbal</p>
+          </div>
+          <p style="color:rgba(0, 0, 0, 0.351);"><b style="color:black;">61 </b>/ 100</p>
+        </div>
+        <div class="category" style="background: hsla(234, 85%, 45%,10%); color: hsl(234, 85%, 45%);">
+          <div class="categoryTextAndImage">
+            <img src="assets/images/icon-visual.svg" alt="">
+            <p>Visual</p>
+          </div>
+          <p style="color:rgba(0, 0, 0, 0.351);"><b style="color:black;">72 </b>/ 100</p>
+        </div>
+      </div>
+      <div class="button">
+        <button>Continue</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
